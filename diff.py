@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
 import json
-import time
-from datetime import datetime
 from InstagramAPI import InstagramAPI
 with open('./conf.json') as file:
     conf = json.load(file)
